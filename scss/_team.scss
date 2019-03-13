@@ -1,0 +1,47 @@
+.team {
+  background-color: $color-base-lighter;
+
+}
+.members {
+  padding:5rem 1rem;
+  p{
+    color: white;
+    font-family:sans-serif;
+    margin:3px 0;
+  }
+}
+.img{
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+}
+.vl {
+  height: 10rem;
+  background: black;
+  width: 2px;
+  margin: 1rem auto;
+}
+.icon {
+  background-color: $color-base-lightest;
+  width:60%;
+  margin:0 auto;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  i {
+    padding:0 5px;
+  }
+}
+
+.work-with {
+  background-color: $color-base;
+}
+.work {
+  background-color: $color-base-lighter;
+  box-shadow: 0px 4px 11px #5f5f5f;
+}

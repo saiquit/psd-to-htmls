@@ -1,0 +1,38 @@
+.btn {
+  letter-spacing:2px;
+  padding: .75em;
+  background-color: $color-base;
+  border:none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  padding:.5em 3em;
+  font-size: 18px;
+  &:hover {
+    background-color: $color-base-darker;
+    border:none;
+  }
+  &:focus {
+    border:none;
+
+  }
+  &:visited {
+    background-color: $color-base-darker;
+    border:none;
+  }
+
+}
+
+.icon-wraper {
+  height:10rem;
+  width:10rem;
+  background-color: $color-base-lightest;
+  border-radius: 30px;
+  margin: 1em 0;
+  i {
+    line-height: 10rem;
+    font-size: 6rem;
+    color: $color-base;
+  }
+
+}

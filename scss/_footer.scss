@@ -1,0 +1,40 @@
+.footer {
+  background-color: #333;
+}
+.about {
+  padding:3rem 3%;
+  h4 {
+    font-family: "Arial Black";
+    text-transform: uppercase;
+  }
+  hr {
+    border:.5px solid white;
+    width:15%;
+  }
+  div{
+    background-color: $color-base-lightest;
+    width:35%;
+    i {
+      color: $color-base;
+    }
+  }
+}
+form {
+  input, textarea {
+    &:not(last){
+      background-color: #4a4a4a !important;
+      border: 1px solid transparent !important;
+      border-radius: 0 !important;
+    }
+
+
+  }
+  button {
+    width: 100%;
+    border-radius: 0px !important;
+  }
+  textarea {
+    width: 100%;
+
+  }
+}

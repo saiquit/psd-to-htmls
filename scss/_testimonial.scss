@@ -1,0 +1,44 @@
+#testimonial {
+
+}
+
+.carousel-inner {
+
+  width: auto;
+  margin: 0 auto;
+
+}
+blockquote {
+  font-size: 26px;
+  margin: 1em auto;
+  padding: 0 20%;
+  span{
+    font-size: 132px;
+    line-height: 65px;
+    position: absolute;
+    color: #00000061;
+    margin: -5px -43px;
+    font-family:sans-serif;
+  }
+}
+.carousel-item {
+  div {
+    display: flex;
+    width: 7%;
+    margin: 0 auto;
+    p{
+      font-size: 18px;
+      span{
+        font-size: 14px;
+      }
+    }
+  }
+  p {
+    width: 20%;
+    margin: 0 auto;
+  }
+}
+
+.arrow {
+  font-size: 36px;
+}

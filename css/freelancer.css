@@ -1,0 +1,228 @@
+.mag {
+  margin-left: -2.5em; }
+
+.navbar {
+  background-color: rgba(249, 249, 249, 0); }
+
+.on-scroll {
+  background-color: rgba(29, 29, 29, 0.7);
+  height: 85px; }
+
+.hero-wraper {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.jumbo {
+  height: 37em;
+  width: 100%; }
+
+.btn {
+  letter-spacing: 2px;
+  padding: .75em;
+  background-color: #54d154;
+  border: none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  padding: .5em 3em;
+  font-size: 18px; }
+  .btn:hover {
+    background-color: #40a140;
+    border: none; }
+  .btn:focus {
+    border: none; }
+  .btn:visited {
+    background-color: #40a140;
+    border: none; }
+
+.icon-wraper {
+  height: 10rem;
+  width: 10rem;
+  background-color: #e1f3e1;
+  border-radius: 30px;
+  margin: 1em 0; }
+  .icon-wraper i {
+    line-height: 10rem;
+    font-size: 6rem;
+    color: #54d154; }
+
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  margin: 2rem auto; }
+
+.section-header {
+  margin: 2.5rem 0; }
+  .section-header hr {
+    width: 40px;
+    border: 1px solid currentColor; }
+
+.services {
+  font-family: Arial; }
+  @media only screen and (max-width: 767px) {
+    .services {
+      margin: 3em 0; } }
+  .services button {
+    padding: .5em 1.25em; }
+  .services p {
+    margin: 0; }
+    @media only screen and (max-width: 767px) {
+      .services p {
+        margin: 3em; } }
+
+.leatest-works {
+  background-color: #54d154;
+  padding: 0 0 3em; }
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+
+.wrapper {
+  margin: 30px auto;
+  width: 80%;
+  font-family: sans-serif;
+  color: #555;
+  font-size: 14px;
+  line-height: 24px; }
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase; }
+
+h1 + p {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px; }
+
+.tabs {
+  list-style: none; }
+  .tabs li {
+    float: left;
+    width: 30%; }
+  .tabs a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #888;
+    padding: 20px 0;
+    border-bottom: 2px solid #888;
+    background: #f7f7f7; }
+    .tabs a:hover, .tabs a.active {
+      background: #ddd; }
+
+.tabgroup div {
+  padding: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.carousel-inner {
+  width: auto;
+  margin: 0 auto; }
+
+blockquote {
+  font-size: 26px;
+  margin: 1em auto;
+  padding: 0 20%; }
+  blockquote span {
+    font-size: 132px;
+    line-height: 65px;
+    position: absolute;
+    color: #00000061;
+    margin: -5px -43px;
+    font-family: sans-serif; }
+
+.carousel-item div {
+  display: flex;
+  width: 7%;
+  margin: 0 auto; }
+  .carousel-item div p {
+    font-size: 18px; }
+    .carousel-item div p span {
+      font-size: 14px; }
+.carousel-item p {
+  width: 20%;
+  margin: 0 auto; }
+
+.arrow {
+  font-size: 36px; }
+
+.footer {
+  background-color: #333; }
+
+.about {
+  padding: 3rem 3%; }
+  .about h4 {
+    font-family: "Arial Black";
+    text-transform: uppercase; }
+  .about hr {
+    border: .5px solid white;
+    width: 15%; }
+  .about div {
+    background-color: #e1f3e1;
+    width: 35%; }
+    .about div i {
+      color: #54d154; }
+
+form input:not(last), form textarea:not(last) {
+  background-color: #4a4a4a !important;
+  border: 1px solid transparent !important;
+  border-radius: 0 !important; }
+form button {
+  width: 100%;
+  border-radius: 0px !important; }
+form textarea {
+  width: 100%; }
+
+.team {
+  background-color: #83ec83; }
+
+.members {
+  padding: 5rem 1rem; }
+  .members p {
+    color: white;
+    font-family: sans-serif;
+    margin: 3px 0; }
+
+.img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%; }
+  .img img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+
+.vl {
+  height: 10rem;
+  background: black;
+  width: 2px;
+  margin: 1rem auto; }
+
+.icon {
+  background-color: #e1f3e1;
+  width: 60%;
+  margin: 0 auto;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px; }
+  .icon i {
+    padding: 0 5px; }
+
+.work-with {
+  background-color: #54d154; }
+
+.work {
+  background-color: #83ec83;
+  box-shadow: 0px 4px 11px #5f5f5f; }
+
+/*# sourceMappingURL=freelancer.css.map */
